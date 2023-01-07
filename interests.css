@@ -1,0 +1,40 @@
+.experience img {
+  margin-right: 7px;
+  margin-top:10px;
+  border: 5px;
+  border-style: solid;
+  border-color: lightgray;
+  border-image-outset: 10px;
+  width: 120px;
+  height: 150px;
+  transition: all 0.3s ease-in-out;
+}
+/* 커서 올릴 시 이미지 크게(모든 이미지 파일에 적용) */
+img:hover {
+  transform: scale(1.7);
+  -webkit-transform: scale(1.7); /* 크롬 */
+  -moz-transform: scale(1.7); /* 파이어폭스 */
+  -o-transform: scale(1.7); /* 오페라 */
+  z-index: 1;
+  align-items: center;
+}
+.experience p{
+  font-size: 55px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+}
+/* for layout */
+.contents1 {
+  width: 700px;
+}
+.contents2 {
+  width: 700px;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+/* 일한 기간 */
+.year {
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  opacity: 0.5;
+}
